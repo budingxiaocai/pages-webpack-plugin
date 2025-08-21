@@ -2,6 +2,15 @@
   "name": "pages-webpack-plugin",
   "description": "用于自动化多页面应用构建的 Webpack 插件 / Webpack plugin for automating the construction of multi page applications",
   "version": "0.2.1",
+  "keywords": [
+    "javascript",
+    "webpack",
+    "webpack-plugin",
+    "webpack5",
+    "webpack5-plugin",
+    "multi-pages"
+  ],
+  "homepage": "https://github.com/budingxiaocai/pages-webpack-plugin",
   "main": "lib/index.js",
   "license": "MIT",
   "author": {
@@ -18,6 +27,9 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/budingxiaocai/pages-webpack-plugin/issues"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "dependencies": {
@@ -37,5 +49,9 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.5",
     "prettier": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budingxiaocai/pages-webpack-plugin.git"
   }
 }
