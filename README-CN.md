@@ -2,13 +2,13 @@
 
 [English](https://github.com/budingxiaocai/pages-webpack-plugin/blob/master/README.md)
 
-PagesPlugin 是一个用于自动化多页面应用构建的 Webpack 插件，专为扫描目录结构并动态生成入口和 HTML 文件而设计。它支持灵活配置、伪静态路由生成，并与 .pagerc.json 配置文件集成，实现每个页面的个性化构建。
+PagesPlugin 是一个用于自动化多页面应用构建的 Webpack 插件，专为扫描目录结构并动态生成入口和 HTML 文件而设计。它支持灵活配置、伪静态路由生成，并与 `.pagerc.json` 配置文件集成，实现每个页面的个性化构建。
 
 ## 特性
 - 零配置：按目录名即可生成页面
 - 动态路由：`[id]` 目录自动映射为 `/@id@.html?id=`
 - 单页配置：`.pagerc.json` 可对单个页面做个性化设置
-- 伪静态：通过`.htaccess`文件将`/hello`映射为`/hello.html`
+- 伪静态：通过 `.htaccess` 文件将 `/hello` 映射为 `/hello.html`
 
 ## 安装
 ```bash
@@ -18,7 +18,7 @@ yarn add -D pages-webpack-plugin
 ```
 
 ## 快速开始
-1. 在项目根目录新建 webpack.config.js：
+1. 在项目根目录新建 `webpack.config.js`：
 ```javascript
 const PagesPlugin = require('pages-plugin-webpack');
 
