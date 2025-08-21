@@ -1,4 +1,7 @@
 # PagesPlugin
+
+[English](https://github.com/budingxiaocai/pages-webpack-plugin/blob/master/README.md)
+
 PagesPlugin 是一个用于自动化多页面应用构建的 Webpack 插件，专为扫描目录结构并动态生成入口和 HTML 文件而设计。它支持灵活配置、伪静态路由生成，并与 .pagerc.json 配置文件集成，实现每个页面的个性化构建。
 
 ## 特性
