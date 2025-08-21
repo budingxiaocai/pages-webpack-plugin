@@ -6,9 +6,9 @@ PagesPlugin 是一个用于自动化多页面应用构建的 Webpack 插件，�
 
 ## 特性
 - 零配置：按目录名即可生成页面
+- 短小精悍：体积小，功能多
 - 动态路由：`[id]` 目录自动映射为 `/@id@.html?id=`
 - 单页配置：`.pagerc.json` 可对单个页面做个性化设置
-- 伪静态：通过 `.htaccess` 文件将 `/hello` 映射为 `/hello.html`
 
 ## 安装
 ```bash

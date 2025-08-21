@@ -1,0 +1,41 @@
+{
+  "name": "pages-webpack-plugin",
+  "description": "用于自动化多页面应用构建的 Webpack 插件 / Webpack plugin for automating the construction of multi page applications",
+  "version": "0.2.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "budingxiaocai",
+    "email": "budingxiaocai@yeah.net",
+    "homepage": "https://github.com/budingxiaocai"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "globals": "^16.3.0",
+    "html-webpack-plugin": "*",
+    "webpack": "^5.101.3",
+    "webpack-merge": "^6.0.1"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.3.2",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
+    "prettier": "^3.6.2"
+  }
+}

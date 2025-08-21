@@ -6,9 +6,9 @@ PagesPlugin is a Webpack plugin that automates multi-page application builds. It
 
 ## Features
 - Zero-config: Pages are generated automatically from directory names
+- Compact in size, rich in features
 - Dynamic routes: Directories named `[id]` are mapped to `/@id@.html?id=`
 - Per-page config: `.pagerc.json` overrides global settings for a single page
-- Pseudo-static: `.htaccess` rewrites `/hello` internally to `/hello.html`
 
 ## Install
 ```bash
